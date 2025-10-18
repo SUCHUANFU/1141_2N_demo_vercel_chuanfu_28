@@ -115,6 +115,9 @@ const Navbar_28 = () => {
                 <div className='sub-menu-wrapper'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
+                      <Link to='/booklist_28'>W2-BookList_28</Link>
+                    </li>
+                    <li className='menu-item'>
                       <Link to='/static_28'>W3-BlogStatic_28</Link>
                     </li>
                     <li className='menu-item'>
