@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
 import blogData_28 from '../assets/data/blogData.json';
-import Blog2_28 from '../components/Blog2_28.jsx';
+import Blog2_28 from '../components/Blog2_28';
 
 const BlogLocalJsonPage_28 = () => {
   const [name] = useState('chuanfu');

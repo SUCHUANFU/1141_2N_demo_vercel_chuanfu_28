@@ -127,13 +127,30 @@ const Navbar_28 = () => {
                       <Link to='/node_28'>W4-BlogsNode_28</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-BlogSupa_28</Link>
+                      <Link to='/supa_28'>W6-BlogSupa_28</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/localjson2_28'>W7-BlogLocalJson2_28</Link>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11_28'>
+                        T11_ErrorExamplePage_28
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12_28'>
+                        T12_UseStateBasicsPage_28
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>
@@ -257,7 +274,7 @@ const Navbar_28 = () => {
                       <Link to='/node_28'>W4-BlogsNode_28</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-BlogSupa_28</Link>
+                      <Link to='/supa_28'>W6-BlogSupa_28</Link>
                     </li>
                   </ul>
                 </div>
