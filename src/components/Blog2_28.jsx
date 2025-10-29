@@ -2,7 +2,7 @@ import { FaGlobe } from 'react-icons/fa6';
 import { FaMugSaucer } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
-const Blog2_28 = ({ id, img, category, title, descrip }) => {
+const Blog2_28 = ({ id, img, category, title, descrip, removeItem }) => {
   return (
     <article className='blog'>
       <img src={img} alt={title} className='img blog-img' />
@@ -10,7 +10,7 @@ const Blog2_28 = ({ id, img, category, title, descrip }) => {
         <span className='flex'>
           {category}{' '}
           {category === 'lifestyle' ? (
-            <FaMugSaucer className='ml-1' />
+            <FaMugSaucer className='ml-1' color='blue' size='' />
           ) : (
             <FaGlobe className='ml-1' />
           )}
@@ -22,6 +22,7 @@ const Blog2_28 = ({ id, img, category, title, descrip }) => {
           <button
             type='button'
             className='text-red-600 bg-red-100 capitalize px-2 py-1 hover:bg-red-300 rounded'
+            onClick={() => removeItem(id)}
           >
             delete
           </button>

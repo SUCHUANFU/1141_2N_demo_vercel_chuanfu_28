@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './blog_28.scss';
+// import './blog_28.scss';
 import './index.css';
 import App_28 from './App_28.jsx';
 
