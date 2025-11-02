@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
-import T21_xx from '../../components/tutorials/T21_xx';
-import Wrapper from '../../assets/wrappers/Tutorials_xx';
+import T21_28 from '../../components/tutorials/T21_28';
+import Wrapper from '../../assets/wrappers/Tutorials_28';
 
-const T21_UseEffectCodeExamplePage_xx = () => {
+const T21_UseEffectCodeExamplePage_28 = () => {
   return (
     <Wrapper>
       <div className='container'>
-        <h4>Tutorial T21_xx</h4>
-        <h5>Hsingtai Chung, 123456789</h5>
-        <T21_xx />
+        <h4>Tutorial T21_28</h4>
+        <h5>Chuanfu, 213410128</h5>
+        <T21_28 />
       </div>
     </Wrapper>
   );
 };
-export default T21_UseEffectCodeExamplePage_xx;
+export default T21_UseEffectCodeExamplePage_28;

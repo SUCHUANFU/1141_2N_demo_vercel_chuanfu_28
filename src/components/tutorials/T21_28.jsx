@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
-import Wrapper from '../../assets/wrappers/Tutorials_xx';
+import Wrapper from '../../assets/wrappers/Tutorials_28';
 
-const T21_xx = () => {
+const T21_28 = () => {
   const [value1, setValue1] = useState(0);
   const [value2, setValue2] = useState(0);
   const [value3, setValue3] = useState(0);
@@ -41,4 +41,4 @@ const T21_xx = () => {
     </Wrapper>
   );
 };
-export default T21_xx;
+export default T21_28;

@@ -30,13 +30,13 @@ const BlogLocalJsonPage2_28 = () => {
   };
 
   const loadAllBlogs = () => {
-    showAlert(true, 'load all blogs', 'danger');
+    showAlert(true, 'load all blogs', 'success');
     setBlogs_28(blogData_28);
   };
 
   return (
     <Wrapper>
-      {alert.show && <Alert_28 alert={alert} />}
+      {alert.show && <Alert_28 alert={alert} showAlert={showAlert} />}
       <section className='blogs'>
         <div className='section-title'>
           <h2>

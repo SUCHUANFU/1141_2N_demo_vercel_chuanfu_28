@@ -5,7 +5,6 @@ import Wrapper from '../assets/wrappers/Blog2_28';
 const BlogStaticPage_28 = () => {
   return (
     <Wrapper>
-      <>
         <section className='blogs'>
           <div className='section-title'>
             <h2>static blogs -- chuanfu, 213410128</h2>
@@ -74,7 +73,6 @@ const BlogStaticPage_28 = () => {
             </article>
           </div>
         </section>
-      </>
     </Wrapper>
   );
 };
